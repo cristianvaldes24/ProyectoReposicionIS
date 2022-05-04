@@ -1,0 +1,27 @@
+<form action="/form" method="POST">
+
+    <head>
+        <meta charset = "utf = 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0 "
+        <meta http-equiv="X-UA-compatible" content="ie-edge" >
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>FormularioRegistro</title>
+    </head>
+    <section class="form-registro">
+        <h4>Formulario de registro</h4>
+    <input class="controls" type = "text" name ="nombres" id="nombres" placeholder="Ingrese su nombre"><br/>
+    <input class="controls" type = "text" name ="apellidos" id="apellidos" placeholder="Ingrese su apellido"><br/>
+    <input class="controls" type = "text" name ="identidades" id="identidades" placeholder="Ingrese su numero de identidad"><br/>
+    <input class="controls" type = "text" name ="fechanacimiento" id="fechanacimiento" placeholder="Ingrese su fecha de nacimiento"><br/>
+    <input class="controls" type = "email" name ="correoselectronicos" id="correoselectronicos" placeholder="Ingrese su correo electronico"><br/>
+    <input class="imagen" type="file" name="image" /><br/>
+    <input class="boton" type="submit"  value="Registro"><br/>
+
+    <body>
+
+    </body>
+        
+
+</form>
+
+
